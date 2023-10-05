@@ -1,0 +1,75 @@
+@font-face {
+	font-family: Font;
+	src: url(LEMONMILK-Regular.otf) ;
+}
+
+* {
+	background-color: rebeccapurple;
+	font-family: Font;
+	text-align: center;
+	color: lightblue;
+}
+
+h1 {
+	font-size: 400%;
+	color: lightblue;
+}
+
+.mainstuff * {
+	flex-wrap: wrap;
+}
+
+.mainstuff div {
+	padding: 3%;
+}
+
+.container {
+	display: flex;
+	justify-content: column;
+	padding: 10%;
+	background-color: lightblue;
+}
+
+p:first-child {
+	background-color: deeppink;
+}
+
+div > p {
+	color: whitesmoke;
+}
+
+.container > div {
+	font-size: 140%;
+}
+
+.smallercontainer img {
+	width: 15%;
+	margin: 3%;
+	flex-wrap: wrap;
+}
+
+a:link, a:visited {
+	color: hotpink;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: yellow;
+}
+
+.mainstuff, .morecontainer {
+	padding: 2%;
+}
+
+#bottomstuff {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+
+
+
+
